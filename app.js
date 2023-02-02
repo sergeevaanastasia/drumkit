@@ -19,7 +19,7 @@ keys.forEach((key) => key.addEventListener("transitionend", removeTransition));
 
 window.addEventListener("keydown", playSound);
 
-keys.forEach((key) => key.addEventListener("click", clickTransition)); //Click Event Listener for each key
+keys.forEach((key) => key.addEventListener("click", clickTransition)); 
 
 function clickTransition() {
   const audio = document.querySelector(
